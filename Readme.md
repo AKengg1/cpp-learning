@@ -11,6 +11,10 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 4. Calculate the area of a circle
 5. Calculate the volume of a cuboid
 6. Calculate the square of a number
+7. Calculate the average of 3 numbers
+8. Swap values of two int variables without using a third variable
+9. Find the maximum of two numbers
+10. Add all the numbers of an array of size 10
 
 ## 🚀 How to run
 ```bash
