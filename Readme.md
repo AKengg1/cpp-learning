@@ -16,6 +16,8 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 9. Find the maximum of two numbers
 10. Add all the numbers of an array of size 10
 
+##✅ Assignment 2 - Functions
+
 ## 🚀 How to run
 ```bash
 g++ filename.cpp -o output
