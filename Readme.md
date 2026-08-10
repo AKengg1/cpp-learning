@@ -1,6 +1,6 @@
 # C++ Learning – Assignments
 
-C++ assignments completed as part of coursework (course ended 2024) — kept here as a personal learning reference and portfolio record.
+C++ assignments completed as part of coursework (course ended 2024) — kept here as a personal learning reference and portfolio record. Assignments are grouped by topic, so numbering may skip around depending on when each topic was covered.
 
 ## 📂 Structure
 
@@ -16,8 +16,13 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 9. Find the maximum of two numbers
 10. Add all the numbers of an array of size 10
 
-##✅ Assignment 2 - Functions
-
+## 🔄 Assignment 2 - Functions in C++
+1. ✅ Define a function to print all prime numbers between two given numbers
+2. ✅ Define a function to find the highest value digit in a given number
+3. ✅Define a function to calculate x raised to the power y
+4. ⬜Define a function to print Pascal's Triangle up to N lines *(not done yet)*
+5. ✅ Define a function to check whether a given number is a term in a Fibonacci series or not
+6. ✅ Write a function adding 2 or 3 numbers
 ## 🚀 How to run
 ```bash
 g++ filename.cpp -o output
