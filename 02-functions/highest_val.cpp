@@ -1,4 +1,4 @@
-//2- highest value in a digit
+// 2- highest value in a digit
 #include <iostream>
 using namespace std;
 inline int highestDigit(int);
