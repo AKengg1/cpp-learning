@@ -28,7 +28,6 @@ void primeFactors(int n)
     while (i<= n){
         if (n%i==0&&prime(i)){
             cout<<i<<", ";
-            // n=n/i;
         }
             i++;
 

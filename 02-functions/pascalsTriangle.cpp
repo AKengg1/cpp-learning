@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 void pascal(int);
-int factorial(int);
+long long factorial(int);
 int main()
 {
     int n;
@@ -27,7 +27,7 @@ void pascal(int n)
         cout << endl;
     }
 }
-int factorial(int n)
+long long factorial(int n)
 {
     if (n == 0 || n == 1)
         return 1;
