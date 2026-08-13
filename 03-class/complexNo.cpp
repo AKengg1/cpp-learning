@@ -1,4 +1,5 @@
 // 1-defining and displaying complex numbers
+// adding call by object and return object
 #include <iostream>
 using namespace std;
 class complexNumber
@@ -11,19 +12,31 @@ public:
     {
         real = r;
         imag = i;
-    }
-    void display()
+    };
+    void display();
+
+    complexNumber add(complexNumber c)
     {
-        cout << real << " + " << imag << "i" << endl;
+        complexNumber temp;
+        temp.real = real + c.real;
+        temp.imag = imag + c.imag;
+        return temp;
     }
+};
+
+void complexNumber::display()
+{
+    cout << real << " + " << imag << "i" << endl;
 };
 
 int main()
 {
-    complexNumber c1;
+    complexNumber c1, c2, c3;
     float i, r;
-    cout << "Enter real and imaginary part of complex number: ";
-    cin >> r >> i;
-    c1.setComplexNumber(r, i);
-    c1.display();
-}
+    // cout << "Enter real and imaginary part of complex number: ";
+    // cin >> r >> i;
+    c1.setComplexNumber(4, 4);
+    c2.setComplexNumber(7, 8);
+    c3=c1.add(c2);
+    c3.display();
+};
