@@ -1,20 +1,24 @@
-//17-calculating volume of cuboid, cube and sphere using function overloading
+// 17-calculating volume of cuboid, cube and sphere using function overloading
 #include <iostream>
 using namespace std;
 
-double volume(double length, double width, double height) {
+double volume(double length, double width, double height)
+{
     return length * width * height;
 }
 
-double volume(double side) {
+double volume(double side)
+{
     return side * side * side;
 }
 
-double volume(double radius) {
-    return (4.0/3.0) * 3.14159 * radius * radius * radius;
+double volume(double radius)
+{
+    return (4.0 / 3.0) * 3.14159 * radius * radius * radius;
 }
 
-int main() {
+int main()
+{
     double length, width, height, side, radius;
 
     cout << "Enter length, width and height of cuboid: ";

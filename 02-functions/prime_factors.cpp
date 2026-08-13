@@ -1,4 +1,4 @@
-//11-prime factors of a number
+// 11-prime factors of a number
 #include <iostream>
 using namespace std;
 void primeFactors(int);
@@ -24,12 +24,14 @@ int prime(int n)
     return 1;
 }
 void primeFactors(int n)
-{   int i=2;
-    while (i<= n){
-        if (n%i==0&&prime(i)){
-            cout<<i<<", ";
+{
+    int i = 2;
+    while (i <= n)
+    {
+        if (n % i == 0 && prime(i))
+        {
+            cout << i << ", ";
         }
-            i++;
-
+        i++;
     }
 }

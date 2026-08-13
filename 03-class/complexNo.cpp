@@ -4,7 +4,7 @@ using namespace std;
 class complexNumber
 {
 private:
-    float real,imag;
+    float real, imag;
 
 public:
     void setComplexNumber(float r = 0, float i = 0)

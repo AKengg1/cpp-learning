@@ -23,9 +23,8 @@ void getSubstring(string str, int start, int end)
     {
         for (int i = start; i < end && i < str.length(); i++)
         {
-          
-                cout << str[i];
-    
+
+            cout << str[i];
         }
     }
 }
