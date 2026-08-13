@@ -20,10 +20,11 @@ public:
     float circumference() { return 2 * 3.14 * radius; }
 };
 
-int main(){
+int main()
+{
     Circle c;
     c.setRadius();
     c.getRadius();
-    cout<<"Area is "<<c.area()<<" and Circumference is "<<c.circumference()<<endl;
+    cout << "Area is " << c.area() << " and Circumference is " << c.circumference() << endl;
     return 0;
 }

@@ -24,7 +24,7 @@ public:
     }
 };
 
-void complexNumber::display()
+void complexNumber::display() // defining instance member function outside class
 {
     cout << real << " + " << imag << "i" << endl;
 };
@@ -33,10 +33,11 @@ int main()
 {
     complexNumber c1, c2, c3;
     float i, r;
-    // cout << "Enter real and imaginary part of complex number: ";
-    // cin >> r >> i;
+    // cout << "Enter real and imaginary part of complex number: "; //lines for prev part
+    // cin >> r >> i;//lines for prev part
+    // code for call by object and return by obect
     c1.setComplexNumber(4, 4);
     c2.setComplexNumber(7, 8);
-    c3=c1.add(c2);
+    c3 = c1.add(c2);
     c3.display();
 };
