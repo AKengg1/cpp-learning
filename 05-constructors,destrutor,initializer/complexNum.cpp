@@ -27,8 +27,7 @@ int main()
         Complex(4, 5),
         Complex(6, 7),
         Complex(8, 9),
-        Complex(10, 11)
-    };
+        Complex(10, 11)};
 
     for (int i = 0; i < 5; i++)
     {
