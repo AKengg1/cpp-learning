@@ -26,11 +26,14 @@ public:
         long h = hcf(temp.numerator, temp.denominator);
         temp.numerator /= h;
         temp.denominator /= h;
+        return temp;
     }
     bool operator<(fraction &f)
     {
         return numerator * f.denominator < f.numerator * denominator;
     }
+
+  
 };
 int main()
 {

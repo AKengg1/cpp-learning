@@ -69,6 +69,42 @@ public:
     }
 };
 
+// overloading operators as a friend
+//unbox and check
+// class Complex
+// {
+// private:
+//     int real, imag;
+
+// public:
+//     Complex() : real(0), imag(0) {}
+//     Complex(int real, int imag) : real(real), imag(imag) {}
+//     friend Complex operator+(Complex &, Complex &);
+//     friend Complex operator-(Complex &, Complex &);
+//     friend Complex operator*(Complex &, Complex &);
+// };
+// Complex operator+(Complex &a, Complex &b)
+// {
+//     Complex temp;
+//     temp.real = a.real + b.real;
+//     temp.imag = a.imag + b.imag;
+//     return temp;
+// }
+// Complex operator-(Complex &a, Complex &b)
+// {
+//     Complex temp;
+//     temp.real = a.real - b.real;
+//     temp.imag = a.imag - b.imag;
+//     return temp;
+// }
+// Complex operator*(Complex &a, Complex &b)
+// {
+//     Complex temp;
+//     temp.real = a.real * b.real - imag * b.imag;
+//     temp.imag = real * b.imag + imag * b.real;
+//     return temp;
+// }
+
 int main()
 {
     Complex c1, c2, c3, c4, c5;
