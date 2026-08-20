@@ -63,11 +63,20 @@ public:
         return temp;
     }
 
+    friend Complex operator-(Complex);
+
     void display()
     {
         cout << real << " + " << imag << "i" << endl;
     }
 };
+
+Complex operator-(Complex a){
+    Complex temp;
+    temp.real=-a.real;
+    temp.imag=-a.imag;
+    return temp;
+}
 
 // overloading operators as a friend
 //unbox and check
@@ -107,7 +116,7 @@ public:
 
 int main()
 {
-    Complex c1, c2, c3, c4, c5;
+    Complex c1, c2, c3, c4, c5,c;
 
     cout << "Enter first complex number:\n";
     c1.input();
@@ -150,6 +159,10 @@ int main()
 
     cout << "After post-increment, c1: ";
     c1.display();
+
+    c=-c1;
+    cout<<"After negation: "
+    c.display();
 
     return 0;
 }
