@@ -87,7 +87,7 @@ public:
 
 ostream &operator<<(ostream &dout, Time c)
 {
-    dout << "Time: " << c.hr << "hr:" << c.min << "m:" << c.sec<<"s" << endl;
+    dout << "Time: " << c.hr << "hr:" << c.min << "m:" << c.sec << "s" << endl;
 
     return dout;
 }
@@ -97,6 +97,8 @@ istream &operator>>(istream &din, Time &c)
     din >> c.hr >> c.min >> c.sec;
     return din;
 }
+
+
 int main()
 {
     Time t1(10, 59, 59);
