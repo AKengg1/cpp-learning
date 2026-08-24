@@ -1,15 +1,18 @@
-//1-class person(implementing 'this')
-#include<iostream>
-#include<string>
+// 1-class person(implementing 'this')
+#include <iostream>
+#include <string>
 using namespace std;
-class Person{
-    private:
+class Person
+{
+private:
     string name;
     int age;
-    public:
-    Person(string name, int age){
-        this->name=name;
-        this->age=age;
+
+public:
+    Person(string name, int age)
+    {
+        this->name = name;
+        this->age = age;
     }
 };
 
