@@ -27,7 +27,7 @@ public:
 
     void upper()
     {
-        for (int i = 0; i < length; i++)
+        for (int i = 0; i < len gth; i++)
         {
             p[i] = toupper(p[i]);
         }
@@ -47,7 +47,7 @@ public:
     }
 
     // Return string
-    char* getString()
+    char *getString()
     {
         return p;
     }

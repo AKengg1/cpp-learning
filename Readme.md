@@ -5,7 +5,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 ## 📂 Structure
 
 ## ✅ Assignment 1 – Basics of C++
-
 1. Print `Hello MySirG` on the screen
 2. Print `Hello` and `MySirG` on separate lines using `endl`
 3. Calculate the sum of two numbers
@@ -18,7 +17,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 10. Add all the numbers of an array of size 10
 
 ## ✅ Assignment 2 – Functions in C++
-
 1. Define a C++ function to print all prime numbers between two given numbers
 2. Define a C++ function to find the highest value digit in a given number
 3. Define a C++ function to calculate x raised to the power y
@@ -26,7 +24,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 5. Define a C++ function to check whether a given number is a term in a Fibonacci series or not
 
 ## ✅ Assignment 3 – Functions in C++
-
 1. Define a C++ function to swap data of two int variables using call by reference
 2. Write a C++ function using the default argument that is able to add 2 or 3 numbers
 3. Define overloaded functions to calculate area of circle, area of rectangle, and area of triangle
@@ -34,7 +31,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 5. Write functions using function overloading to add two numbers having different data types
 
 ## ✅ Assignment 4 – More on Functions in C++
-
 1. Define a C++ function to sort an array of integers in ascending or descending order depending on a bool type argument (`true` for ascending, `false` for descending). Use a default argument to implement it.
 2. Define a function to sort an array of strings in ascending or descending order depending on a bool type argument (`true` for ascending, `false` for descending). Use a default argument to implement it.
 3. Define a function to rotate an array by `n` positions in the `d` direction. Implement position and direction using default arguments. Argument `d` can be `-1` or `1`, denoting left or right direction. Argument `n` should be the last argument, with a default value of `1`.
@@ -43,7 +39,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
    _(example: `num = 36`, prime factors are `2, 3`)_
 
 ## ✅ Assignment 5 – More on Functions in C++
-
 1. Define a function to calculate the HCF of two numbers
 2. Define overloaded functions to calculate the volume of a cuboid, cone, and sphere
 3. Define a function to print a substring from `startIndex` (inclusive) to `endIndex` (exclusive). Define the function such that if the second argument is not provided, the string prints till the last possible index.
@@ -51,7 +46,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 5. Define a function to merge two sorted arrays of the same size
 
 ## ✅ Assignment 6 – Classes and Objects
-
 1. Define a class `Complex` to represent a complex number. Declare instance member variables to store the real and imaginary part of a complex number, also define instance member functions to set values of the complex number and print values of the complex number.
 2. Define a class `Time` to represent Time (like 3 hr 45 min 20 sec). Declare an appropriate number of instance member variables and also define instance member functions to set values for time and display values of time.
 3. Define a class `Date` to represent a date (like d=31, m=12, y=2022). Declare an appropriate number of instance member variables and also define instance member functions to set date and get date.
@@ -61,7 +55,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 5. Define a class `Circle` with radius as its property. Provide `setRadius()` and `getRadius()` methods. Also define methods to return the area and circumference of the circle.
 
 ## ✅ Assignment 7 – Member Functions
-
 1. Define a class `Complex` to represent a complex number with instance variables `a` and `b` to store the real and imaginary parts. Also define the following member functions:
    1. `void setData(int,int)`
    2. `void showData()`
@@ -84,7 +77,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
    5. `bool is_singular()`
 
 ## ✅ Assignment 8 – Constructors
-
 1. Define a class `Cuboid` with length, breadth and height as instance member variables. Define constructors to initialise member variables.
 2. Define a class `Customer` with instance members `cust_id`, `name`, `email`, `mobile`. Define a non-parameterised constructor and a parameterised constructor in the class.
 3. Define a class `Time` with `hr`, `min`, `sec` as instance member variables. Define a constructor to initialise the time object.
@@ -92,7 +84,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 5. Define a class `Complex` with instance variables for the real and imaginary part of a complex number. Define only one parameterised constructor in the class to initialise the complex object. Also define a `showData` method in the class to display object data. Now create an array of `Complex` class with size 5 and display values of each object.
 
 ## ✅ Assignment 9 – More on Constructors
-
 1. Define a class `Numbers` with `size` and `arr` pointer as instance variables. Provide a constructor to initialise instance members, dynamically allocate an array of the given size, and store its address in the `arr` variable of the object. Also define a destructor to deallocate the memory of the array. Implement deep copy using a copy constructor to avoid memory issues.
 2. Define a class `Student` and write a program to enter student details using a constructor and define a member function to display all the details.
 3. Define a class `Date` with `d`, `m`, `y` as instance variables. Initialise members using initialisers.
@@ -100,7 +91,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 5. Define a class `Circle` with radius as an instance variable. Define two constructors in the class — non-parameterised and parameterised.
 
 ## ✅ Assignment 10 – Operator Overloading
-
 1. Define a class `Complex` with appropriate instance variables and member functions. Define the following operators in the class:
    1. `+`
    2. `-`
@@ -112,7 +102,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 5. Define a class `Matrix` to represent a 3x3 matrix. Provide appropriate instance methods. Also define `operator+`, `operator-`, `operator*` to perform addition, subtraction, and multiplication of matrices.
 
 ## ✅ Assignment 11 – Operator Overloading
-
 1. Define a C++ class `fraction`:
    ```cpp
    class fraction
@@ -149,7 +138,6 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
    Define a constructor to allocate an array of the given size (size is given through the parameter). Define a subscript operator to access the element at a given index. Define a destructor to deallocate the memory of the array.
 
 ## ✅ Assignment 12 – Operator Overloading, Friend Operator
-
 1. Define a class `Complex` and overload the following operators as a friend:
    1. `+`
    2. `-`
@@ -172,9 +160,48 @@ C++ assignments completed as part of coursework (course ended 2024) — kept her
 5. In Question 4, define a friend `operator+` to concatenate two `Array` objects.
 
 ## ✅ Assignment 13 – Operator Overloading, Friend Operator
-
 1. Define a class `Complex` and provide a unary friend `operator-` to negate the real and imaginary part of a complex number.
 2. Define a class `Integer` with an instance variable of type `int`. Provide a friend logical `operator!`. Also define a friend `operator==` to compare two `Integer` objects.
 3. Create a `Coordinate` class with 2 instance variables `x` and `y`. Overload the comma operator such that when you write `c3 = (c1, c2)`, `c2` is assigned to `c3`, where `c1`, `c2`, and `c3` are objects of the `Coordinate` class.
 4. In Question 3, provide overloaded insertion and extraction operators.
 5. Define a class `Student` with roll no, name, and age as instance variables. Create `setStudent()` and `showStudent()` methods in the class. Overload `operator==` to compare two `Student` objects.
+
+## ✅ Assignment 14 – Pointer, this, DMA
+1. Define a class `Person` with name and age as instance variables. Provide a parameterised constructor with two formal arguments name & age, to initialise instance variables.
+2. Define a class `Complex` with instance variables `a` and `b` to store the real and imaginary part of a complex number. Provide a `setData()` method with formal arguments named `a` and `b`, to set the values of instance variables. Also define a `showData()` method to display instance member variable values.
+3. In Question 2, write a non-member function in which the `Complex` class is instantiated dynamically. Initialise instance variables and display their values.
+
+## ✅ Assignment 15 – Pointer, this, DMA
+1. Define a class `Time` with instance variables `hr`, `min` and `sec`. Provide instance methods `setTime()` and `showTime()`. The `setTime()` method has formal arguments with the same name as instance variables. Also define setters and getters.
+2. In Question 1, define a method to dynamically create an array of `Time` objects with a specified size (received through argument) and return the array.
+3. In Question 1, define a method to sort the `Time` object array.
+4. In Question 1, define a method to display `Time` object array values. The array is received through an argument.
+5. Define a class `String` with a char pointer and length of the string as instance member variables. Define a method to dynamically create an array of char type and hold the input string such that the array length is just enough to accommodate the input string.
+6. In Question 5, define methods to convert the string into uppercase and lowercase.
+7. In Question 5, define methods to print the string, return the string, and return the length of the string.
+
+## ✅ Assignment 16 – Inheritance
+1. Define a class `Person` with name and age as instance variables as private members. Provide setters and getters as protected methods. Derive a class `Employee` from `Person` class with private instance variable `salary`. Provide public methods `setEmployee()` and `showEmployee()`.
+2. Define a class `Circle` with radius as a private instance variable and `setRadius()`, `getRadius()`, `getArea()` as public instance methods. Define a class `ThickCircle` as a subclass of `Circle` with thickness as a private instance variable and `getThickness()`, `setThickness()` as public instance methods. Provide an overridden method `getArea()` to calculate the area of the thick portion of the circle.
+3. Define a class `Coordinate` with `x` and `y` as instance variables. Define overloaded versions of `getDistance()` — first with no argument, calculating distance from origin, and second with one argument of `Coordinate` type, to calculate distance between two coordinates. Also define other methods if required.
+4. Define a class `Shape` with `shapeName` as an instance variable. Provide setter and getter.
+5. In Question 3 & 4, derive a class `StraightLine` from `Shape` with two `Coordinate` type objects as instance members. Provide methods to `setLine()`, `getDistance()`, and `showLine()`.
+
+## ✅ Assignment 17 – Inheritance
+1. Define a class `Game` with an array of 5 int variables as instance member to store the score of each of 5 rounds. Provide a method to `setScore(int round, int score)`. Also provide a method `getScore(int round)`.
+2. In Question 1, derive a class `GameResult` with an array of 5 int type variables to store the result in each round. Result value is 2 for win, 0 for lose, and 1 for draw. Provide methods to set the result and get the result. Write a method to calculate the final result of the game.
+3. Define a class `Actor` with name, age as instance variables and setter, getters as instance methods. Define a class `TVActor` as a derived class of `Actor` with an instance variable to store the number of TV projects done or running and define setter, getter. Also define `setTVActor()` and `showTVActor()`. Define a class `MovieActor` as a derived class of `Actor` with an instance variable to store the number of movies done or running and define setter, getter. Also define `setMovieActor()` and `showMovieActor()`. Derive a class `AllScreenActor` from `TVActor` and `MovieActor`. Define a method to `setActorData()` and `showActorData()`.
+
+## ✅ Assignment 18 – Overriding, Late Binding, Abstract Class
+1. Define a class `A` with two int type member variables. Define a member function to `setData()` and `showData()` to set and display values of member variables. Also define a member function with the name `input()` to take input from the user. Define a class `B` with one int type member variable. Override the `input()` function in order to input three values from the user for all three member variables. Also override the `showData()` function to display all three values.
+2. Define a class `Shape` with a member variable to store the name of the shape (like rectangle, square, circle, etc.). Provide methods to set and display the name of the shape. Define a pure virtual function `area()` in the `Shape` class. Define two derived classes of `Shape`, one is `Rectangle` and the other is `Square`. Define appropriate members in both classes. Demonstrate usage of the classes by making a driver function `main()`.
+
+## ✅ Assignment 19 – File Handling
+1. Write a C++ program to copy the content of a file and store it in another file.
+2. Write a C++ program to read and display the content of a file.
+3. Define a class `Employee` with `empid`, `name` and `salary` as instance variables. Also provide instance methods to input and display an Employee record.
+4. In Question 3, define a member function to store a new employee record in a file.
+5. In Question 3, define a member function to print all employee records stored in a file.
+6. In Question 3, define a member function to search for an employee by their `empid` in a file. Print their record if found, otherwise display a message that the search failed.
+7. In Question 3, define a member function to edit employee data for a given `empid`.
+8. In Question 3, define a member function to delete an employee record for a given `empid`.

@@ -18,9 +18,10 @@ public:
     }
 };
 
-void displayComplex(){
-    Complex *p =new Complex;
-    p->setData(5,3);
+void displayComplex()
+{
+    Complex *p = new Complex;
+    p->setData(5, 3);
     p->showData();
 
     delete p;
