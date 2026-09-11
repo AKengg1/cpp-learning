@@ -28,6 +28,7 @@ class B : public A
 {
 private:
     int c;
+
 public:
     void setData(int x = 0, int y = 0, int z = 0)
     {

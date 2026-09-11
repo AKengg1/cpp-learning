@@ -18,7 +18,7 @@ public:
         cout << "Shape name is: " << name << endl;
     }
 
-    virtual void area() = 0;   // Pure virtual function
+    virtual void area() = 0; // Pure virtual function
 };
 
 class Rectangle : public Shape
@@ -57,7 +57,8 @@ public:
     }
 };
 
-int main(){
+int main()
+{
     Rectangle r;
     r.setName("Rectangle");
     r.setData(10, 5);
